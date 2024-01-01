@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/utils-get-prototype-of": "^0.1.1",
-    "@stdlib/utils-native-class": "^0.1.1"
+    "@stdlib/utils-native-class": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
