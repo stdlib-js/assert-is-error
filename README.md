@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-error/tags). For example,
+
+```javascript
 import isError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@v0.2.1-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ var bool = isError( new Error( 'beep' ) );
 <body>
 <script type="module">
 
-import isError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@v0.2.1-esm/index.mjs';
+import isError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@esm/index.mjs';
 
 var bool = isError( new Error( 'error' ) );
 // returns true
