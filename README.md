@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@deno/mod.js';
+import isError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@v0.2.1-deno/mod.js';
 ```
 
 #### isError( value )
@@ -85,7 +85,7 @@ var bool = isError( new Error( 'beep' ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@deno/mod.js';
+import isError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-error@v0.2.1-deno/mod.js';
 
 var bool = isError( new Error( 'error' ) );
 // returns true
